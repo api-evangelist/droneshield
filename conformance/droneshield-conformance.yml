@@ -1,0 +1,16 @@
+name: DroneShield conformance
+generated: '2026-10-21'
+method: searched
+source: https://asiapacificdefencereporter.com/droneshield-announces-substantial-update-to-software/
+note: No public API contract or developer documentation is published, so no contract-declared standard can be read. The rows below are CLAIMS reported by trade press quoting DroneShield announcements; no droneshield.com page reachable in this pass states them.
+standards:
+- id: sapient
+  name: SAPIENT (UK MOD / Dstl counter-UAS open integration protocol)
+  conforms: claimed
+  scope: DroneShield sensors (reported 2022 for RfPatrol, RfOne, DroneSentry-X; 2025 for DroneSentry-X Mk2, RfPatrol Mk2 and "all DroneShield's sensors")
+  evidence:
+  - url: https://asiapacificdefencereporter.com/droneshield-announces-substantial-update-to-software/
+    quote: "Integration with SAPIENT, a leading CUAS open integration protocol, now supported across all DroneShield's sensors."
+  - url: https://www.unmannedairspace.info/counter-uas-systems-and-policies/droneshield-c-uas-systems-now-comply-with-uk-defence-ministry-sapient-format/
+    quote: "DroneShield reports it has reached compliance with UK Ministry of Defence (UK MOD) SAPIENT format."
+  basis: third-party-press

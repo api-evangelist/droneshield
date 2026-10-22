@@ -1,0 +1,101 @@
+generated: '2026-10-21'
+method: searched
+source:
+- https://www.droneshield.com/products-software
+- https://zapier.com/apps/droneshield/integrations
+- https://n8n.io/integrations/droneshield/
+- https://composio.dev/toolkits/droneshield
+- https://monid.ai/tools/droneshield
+checked:
+- https://www.droneshield.com/products-software
+- https://www.droneshield.com/capabilities/product-integration
+- https://www.droneshield.com/capabilities/integration (404)
+- https://composio.dev/toolkits/droneshield
+- https://monid.ai/tools/droneshield
+- https://n8n.io/integrations/droneshield/
+- https://zapier.com/apps/droneshield/integrations
+summary: null
+marketplace_apps: []
+edges:
+- partner_name: Bosch
+  partner: bosch
+  type: claimed
+  direction: unknown
+  category: sensor
+  evidence: https://www.droneshield.com/products-software
+  quote: Sensor Interoperability
+- partner_name: Echodyne
+  partner: echodyne
+  type: claimed
+  direction: unknown
+  category: sensor
+  evidence: https://www.droneshield.com/products-software
+  quote: Sensor Interoperability
+- partner_name: Leonardo DRS
+  partner: null
+  type: claimed
+  direction: unknown
+  category: sensor
+  evidence: https://www.droneshield.com/products-software
+  quote: Sensor Interoperability
+- partner_name: RADA
+  partner: null
+  type: claimed
+  direction: unknown
+  category: sensor
+  evidence: https://www.droneshield.com/products-software
+  quote: Sensor Interoperability
+- partner_name: Teledyne FLIR
+  partner: null
+  type: claimed
+  direction: unknown
+  category: sensor
+  evidence: https://www.droneshield.com/products-software
+  quote: Sensor Interoperability
+- partner_name: Sentrycs
+  partner: null
+  type: claimed
+  direction: unknown
+  category: sensor
+  evidence: https://www.droneshield.com/products-software
+  quote: Sensor Interoperability
+- partner_name: MAXAR
+  partner: null
+  type: claimed
+  direction: unknown
+  category: geospatial
+  evidence: https://www.droneshield.com/products-software
+  quote: Geospatial Interoperability
+- partner_name: Maptiler
+  partner: maptiler
+  type: claimed
+  direction: unknown
+  category: geospatial
+  evidence: https://www.droneshield.com/products-software
+  quote: Geospatial Interoperability
+- partner_name: Bing
+  partner: null
+  type: claimed
+  direction: unknown
+  category: geospatial
+  evidence: https://www.droneshield.com/products-software
+  quote: Geospatial Interoperability
+- partner_name: Google Maps
+  partner: google-maps
+  type: claimed
+  direction: unknown
+  category: geospatial
+  evidence: https://www.droneshield.com/products-software
+  quote: Geospatial Interoperability
+- partner_name: Esri
+  partner: esri
+  type: claimed
+  direction: unknown
+  category: geospatial
+  evidence: https://www.droneshield.com/products-software
+  quote: Geospatial Interoperability
+templates: []
+note: Edges are the DroneSentry-C2 "Compatibility" lists on the software products page ("Sensor Interoperability"
+  and "Geospatial Interoperability"). No marketplace listing (Zapier/Make/etc.) applies to a counter-UAS C2 product.
+  ADS-B in the sensor list is a protocol, not a partner, and is omitted. SAPIENT and ATAK-CIV interoperability are
+  recorded in conformance/.

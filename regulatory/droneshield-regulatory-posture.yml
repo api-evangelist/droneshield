@@ -1,0 +1,92 @@
+generated: '2026-10-21'
+method: searched
+probe: true
+source: https://www.droneshield.com/privacy-policy
+signals:
+  data_subject_request:
+    url: https://www.droneshield.com/privacy-policy
+    section: '7. ACCESS AND CORRECTION; 11. EEA, UK & SWISS RESIDENTS'
+    channel: legal@droneshield.com
+    rights_named: [access, correction, erasure (EEA/UK/CH), restriction (EEA/UK/CH), objection (EEA/UK/CH), portability (EEA/UK/CH)]
+    evidence:
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: '7.2    By request, you may contact DroneShield and ask to know what sort of personal information is held about you, for what purposes, and how it is collected, held, used, and disclosed.'
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: '11.1    If the data privacy laws of EEA, United Kingdom, or Switzerland, apply to you, then you have the right to access personal information, right to rectification or erasure, right to restriction of processing, right to object to the processing, and the right to data portability.'
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: '11.5    If you wish to exercise any of your rights, please contact us using the details provided in section 16 ''How to Contact Us'' below. We may charge you a nominal fee in relation to servicing a request exercising your rights.'
+    note: >-
+      Access and correction on request for everyone (requests go to legal@droneshield.com; section 7.3 reserves
+      a reasonable administration fee). The full GDPR-style set, including erasure and portability, applies only
+      to people covered by EEA, UK or Swiss law. No response deadline is stated.
+  subprocessors:
+    url: https://www.droneshield.com/privacy-policy
+    section: '4. DISCLOSURE OF PERSONAL INFORMATION'
+    named: [AWS, Oracle, Salesforce, Microsoft Azure, HubSpot]
+    evidence:
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: '(b) our contractors and other third parties that provide goods and services to us (including website and data hosting providers, processors/sub-processors (including, without limitation, AWS, Oracle, Salesforce, Microsoft Azure, HubSpot) and other suppliers);'
+    note: >-
+      Names five sub-processors as examples inside the privacy policy ("without limitation"). It is not a full,
+      maintained sub-processor list, and the policy offers no change-notification mechanism.
+  data_residency:
+    url: https://www.droneshield.com/privacy-policy
+    section: '10. TRANS-BORDER DATA FLOWS'
+    evidence:
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: '10.3    You acknowledge, agree and understand that your personal information may be transferred to, within, and between; stored in; and processed in Australia and/or other foreign jurisdictions, including without limitation Japan, the US, the UK, the EEA, and/or any other jurisdiction which the cloud services or other electronic network provider may direct the data to be stored.'
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: 'If your personal information will be transferred to a country that the European Commission, the UK Information Commissioner''s Office, or the Swiss Federal Data Protection and Information Commissioner (as applicable) does not recognise as offering an adequate level of personal data protection, such transfers will be covered by alternative safeguards, including the application of the EU standard contractual clauses for the transfer of data (as amended for Switzerland or to incorporate the UK Privacy Addendum, if applicable).'
+    note: >-
+      No residency commitment is made. Data is processed in Australia, where DroneShield has its headquarters,
+      and may be stored in Japan, the US, the UK, the EEA or elsewhere. Transfers out of the EEA, UK or
+      Switzerland rely on standard contractual clauses.
+  incident_notification:
+    url: https://www.droneshield.com/privacy-policy
+    section: '6. SECURITY AND ACCURACY'
+    evidence:
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: 'Where a data breach occurs and serious harm to affected individuals is likely, we will notify those individuals and the Commissioner in accordance with our legal obligations.'
+    note: >-
+      Breach notification follows Australia's Notifiable Data Breaches Scheme: affected individuals and the OAIC
+      are notified when serious harm is likely. There is no contractual notification window and no
+      customer-facing incident SLA.
+  data_retention:
+    url: https://www.droneshield.com/privacy-policy
+    section: '5. RETENTION'
+    evidence:
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: '5.1    DroneShield will retain the personal information you provide for as long as is reasonably necessary for the purposes explained in this Privacy Policy, in accordance with tax or accounting requirements or as required by applicable law.'
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: '6.3    DroneShield will take commercially reasonable steps to destroy or permanently de-identify personal information if it is no longer needed for the purposes of providing the Website, Platforms or our services to you, there is no legitimate interest need, or where DroneShield is not required to retain that information by law.'
+    note: >-
+      The retention rule is based on purpose, with destruction or de-identification at the end. No retention
+      periods are published.
+  global_privacy_control:
+    url: https://www.droneshield.com/privacy-policy
+    evidence:
+    - source: https://www.droneshield.com/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: '14.5    DroneShield does not track its customers over time and across third party websites to provide targeted advertising and therefore does not respond to Do Not Track (DNT) signals.'
+    note: >-
+      This is a denial, and it concerns Do Not Track only. The policy does not mention Global Privacy Control.
+      It says DNT signals are not honoured because no cross-site tracking for targeted advertising takes place.

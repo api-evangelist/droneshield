@@ -1,0 +1,12 @@
+name: DroneShield pricing
+generated: '2026-10-21'
+method: none
+source: https://www.droneshield.com/products-software
+audience: business-product
+pricing_basis: negotiated
+published: false
+plan_count: 0
+note: No price is published. DroneShield sells counter-UAS hardware and DroneSentry-C2 software licences to defence, government and enterprise buyers through sales enquiries (https://www.droneshield.com/contact-us); the products page lists package inclusions ("DroneSentry-C2 Software License", "Quarterly Software Updates") but no prices or API tiers.
+delivery:
+  model: unclear
+plans: []

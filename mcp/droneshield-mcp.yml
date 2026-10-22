@@ -1,0 +1,14 @@
+name: DroneShield MCP Server
+description: No official DroneShield MCP server (hosted or local) was found, and no public OpenAPI contract exists from which to derive a candidate tool list. DroneSentry-C2 is described as having a RESTful API, but its documentation goes only to customers through the DroneShield Access Portal.
+generated: '2026-10-21'
+method: none
+source:
+  - https://www.droneshield.com/products-software
+  - 'web search 2026-10-21: "DroneShield MCP server OR API developer documentation" (results were only unrelated drone/Drone-CI MCP servers)'
+status: none
+tools: []
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+notes: 'The preflight contract discovery (2026-10-21) on droneshield.com, www.droneshield.com and api.droneshield.com found no openapi, asyncapi, graphql or MCP surface. No tool crosswalk, overlay or agent skills were written because there is no OpenAPI to ground them in.'

@@ -1,23 +1,102 @@
 aid: droneshield
+
 name: DroneShield
-description: 'DroneShield is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'DroneShield (ASX:DRO) is a counter-drone technology company that describes itself as the global leader in AI-powered CUxS (counter-uncrewed systems), delivering counter-drone solutions for every mission with customer-first design and advanced threat detection. Its public website covers products, product support, investor relations, news and careers; no public developer API, API documentation or developer portal is published on droneshield.com. Originally surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026).'
+
 url: https://raw.githubusercontent.com/api-evangelist/droneshield/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Counter-Drone
+- Defense
+- Drones
+- Artificial Intelligence
+- Security
+- ASX Listed
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://static1.squarespace.com/static/660a32624c94dd36e509baf3/t/6ab11e62685fd269d5e6a9d7/1789992546829/SocialSharing_1200x630.jpg?format=1500w
+
 common:
+- type: Conformance
+  url: conformance/droneshield-conformance.yml
+- type: Hosts
+  url: hosts/droneshield-hosts.yml
+- type: IntegrationEdges
+  url: integrations/droneshield-integration-edges.yml
+- type: Vendors
+  url: vendors/droneshield-vendors.yml
+- type: Security
+  url: https://www.droneshield.com/blog/tag/Security
+- type: DomainSecurity
+  url: security/droneshield-domain-security.yml
 - type: Website
-  url: https://droneshield.com/
+  url: https://www.droneshield.com/
+- type: About
+  url: https://www.droneshield.com/about
+- type: Blog
+  url: https://www.droneshield.com/blog
+- type: Newsroom
+  url: https://www.droneshield.com/media/news
+- type: Support
+  url: https://www.droneshield.com/product-support-form
+- type: Contact
+  url: https://www.droneshield.com/contact-us
+- type: Careers
+  url: https://www.droneshield.com/careers
+- type: InvestorRelations
+  url: https://www.droneshield.com/investor-relations
+- type: LinkedIn
+  url: https://www.linkedin.com/company/droneshield
+- type: PrivacyPolicy
+  url: https://www.droneshield.com/privacy-policy
+- type: TermsOfService
+  url: https://www.droneshield.com/terms-of-access
+
+apis:
+- aid: droneshield:dronesentry-c2-api
+  name: DroneShield DroneSentry-C2 API
+  description: 'DroneSentry-C2 is DroneShield''s command-and-control platform for counter-UAS sensors and effectors (on-premises or cloud). The product page states that a RESTful API allows easy deployment into existing security systems; no public API reference, base URL or machine-readable contract is published, and technical resources are distributed to customers through the DroneShield Access Portal.'
+  humanURL: https://www.droneshield.com/products-software
+  tags:
+  - Counter-Drone
+  - Command and Control
+  properties:
+  - type: Documentation
+    url: https://www.droneshield.com/products-software
+
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: DroneShield's products-software page says DroneSentry-C2 has a RESTful API, but publishes no reference or contract; technical resources are delivered only to customers through the DroneShield Access Portal, and no OpenAPI/AsyncAPI/GraphQL/MCP was found on droneshield.com, www.droneshield.com or api.droneshield.com.
+  evidence:
+  - url: https://www.droneshield.com/products-software
+    status: 200
+  - url: https://www.droneshield.com/
+    status: 200
+  checked: '2026-10-21'
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

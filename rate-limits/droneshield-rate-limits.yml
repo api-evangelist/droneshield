@@ -1,0 +1,7 @@
+name: DroneShield rate limits
+generated: '2026-10-21'
+method: none
+source: https://www.droneshield.com/products-software
+limit_count: 0
+note: No API reference is public; the DroneSentry-C2 RESTful API is mentioned only on the product page and no rate limits, headers or quotas are documented anywhere reachable.
+limits: []

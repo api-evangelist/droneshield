@@ -1,0 +1,6 @@
+name: DroneShield packages
+generated: '2026-10-21'
+method: none
+source: https://www.droneshield.com/products-software
+note: No first-party client library or SDK is published. Checked registry.npmjs.org/droneshield (404), pypi.org/pypi/droneshield/json (404) and api.github.com/orgs/droneshield (404). The products page names an ATAK-CIV plugin (RfLink) and the DroneSentry-C2 RESTful API, but both are distributed to customers through the DroneShield Access Portal, not a public registry.
+packages: []
